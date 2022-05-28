@@ -1,1 +1,12 @@
 
+Задача 10
+Public class LargestElement_array {
+  Public static void main(String[]args){
+
+Int[] arr=new int[] {34,44121,23,11,5};
+Int max=arr[0];
+For(int i=0;i<arr.lenght;i++){
+ If(arr[i]>max)
+Max=arr[i];
+}
+System.out.println("Largest Element present in given array:"+max);
